@@ -1,0 +1,32 @@
+{
+  "name": "node-net",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "tslint --format stylish 'src/**/*.ts'",
+    "compile": "tsc",
+    "build": "yarn lint && yarn compile",
+    "push": "git push origin master"
+  },
+  "author": "koolii",
+  "license": "MIT",
+  "dependencies": {
+    "@types/es6-promise": "^3.3.0",
+    "@types/express": "^4.11.1",
+    "@types/node": "^10.0.4",
+    "babel-cli": "^6.26.0",
+    "cookie-parser": "^1.4.3",
+    "debug": "^3.1.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "http-errors": "^1.6.3",
+    "path": "^0.12.7",
+    "tslint": "^5.10.0",
+    "tslint-config-airbnb": "^5.8.0",
+    "tsutils": "^2.26.2",
+    "typescript": "^2.8.3"
+  }
+}
